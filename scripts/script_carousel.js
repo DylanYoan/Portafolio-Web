@@ -3,13 +3,16 @@ var swiper = new Swiper(".mySwiper", {
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
-    slidersPerView: "auto",
+    slidesPerView: "auto",
     coverflowEffect: {
         rotate: 15,
         stretch: 0,
         depth: 300,
         modifier: 1,
-        sliderShadows: true
+        slideShadows: true,
     },
-    loop: true
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
 });
