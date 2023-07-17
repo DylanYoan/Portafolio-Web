@@ -1,0 +1,227 @@
+
+.container {
+    position: relative;
+    width: 320px;
+    margin: 90px auto 0 230px;
+    perspective: 2000px;
+}
+
+.container3 {
+    position: relative;
+    width: 320px;
+    margin: 90px auto 0 230px;
+    perspective: 3500px;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    animation: rotate360 60s infinite forwards linear;
+}
+
+
+
+.container_title {
+    color: #fff;
+    position: absolute;
+    font-size: 20px;
+    width: 300px;
+    float: right;
+    top: 50px;
+    left: 800px;
+    letter-spacing: 5px;
+}
+
+.container_title2 {
+    color: #fff;
+    position: absolute;
+    font-size: 20px;
+    width: 300px;
+    float: right;
+    top: 250px;
+    left: 775px;
+    letter-spacing: 5px;
+}
+
+.container_title3 {
+    color: #fff;
+    position: absolute;
+    font-size: 20px;
+    width: 300px;
+    float: right;
+    top: 450px;
+    left: 800px;
+    letter-spacing: 5px;
+}
+
+.image {
+    position: absolute;
+    width: 260px;
+    height: 127px;
+    top: 0;
+    left: 10px;
+    right: 10px;
+    background-size:cover;
+    background-position: center;
+    box-shadow: inset 0 0 0 2000px rgba(30, 30, 30, 0.01);
+    display: flex;
+}
+
+.image2 {
+    position: absolute;
+    width: 260px;
+    height: 127px;
+    top:200px;
+    left: 10px;
+    right: 10px;
+    background-size:cover;
+    background-position: center;
+    box-shadow: inset 0 0 0 2000px rgba(30, 30, 30, 0.01);
+    display: flex;
+}
+
+.image3 {
+    position: absolute;
+    width: 260px;
+    height: 127px;
+    top:430px;
+    left: 10px;
+    right: 10px;
+    background-size:cover;
+    background-position: center;
+    box-shadow: inset 0 0 0 2000px rgba(30, 30, 30, 0.01);
+    display: flex;
+}
+
+span {
+    margin: auto;
+    font-size: 2rem;
+}
+
+@keyframes rotate360 {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(-360deg);
+    }
+}
+
+.image:nth-child(1) {
+    background-image: url('../assets/html.webp');
+    transform: rotateY(0deg) translateZ(200px);
+    border-radius: 25px;
+}
+
+.image:nth-child(2) {
+    background-image: url('../assets/js.jpg');
+    transform: rotateY(90deg) translateZ(200px);
+    border-radius: 25px;
+
+}
+
+.image:nth-child(3) {
+    background-image: url('../assets/css.jpg');
+    transform: rotateY(180deg) translateZ(200px);
+    border-radius: 25px;
+
+}
+
+.image:nth-child(4) {
+    background-image: url('../assets/react.jpeg');
+    transform: rotateY(270deg) translateZ(200px);
+    border-radius: 25px;
+
+}
+
+.container:nth-child(2) {
+    margin: 290px auto 0 230px;
+
+}
+
+.image2:nth-child(1) {
+    background-image: url('../assets/git.png');
+    transform: rotateY(0deg) translateZ(200px);
+    border-radius: 25px;
+
+}
+
+.image2:nth-child(2) {
+    background-image: url('../assets/github.jpg');
+    transform: rotateY(120deg) translateZ(200px);
+    border-radius: 25px;
+
+}
+
+.image2:nth-child(3) {
+    background-image: url('../assets/visual.png');
+    transform: rotateY(240deg) translateZ(200px);
+    border-radius: 25px;
+
+}
+
+.container:nth-child(3) {
+    margin: 490px auto 0 230px;
+
+}
+
+.image3:nth-child(1) {
+    background-image: url('../assets/aspnet.png');
+    transform: rotateY(0deg) translateZ(300px);
+    border-radius: 25px;
+
+}
+
+.image3:nth-child(2) {
+    background-image: url('../assets/csharp.webp');
+    transform: rotateY(60deg) translateZ(300px);
+    border-radius: 25px;
+
+}
+
+.image3:nth-child(3) {
+    background-image: url('../assets/nodejs.png');
+    transform: rotateY(120deg) translateZ(300px);
+    border-radius: 25px;
+
+}
+
+.image3:nth-child(4) {
+    background-image: url('../assets/mysql.png');
+    transform: rotateY(180deg) translateZ(300px);
+    border-radius: 25px;
+
+}
+
+.image3:nth-child(5) {
+    background-image: url('../assets/postgres.webp');
+    transform: rotateY(240deg) translateZ(300px);
+    border-radius: 25px;
+
+}
+
+.image3:nth-child(6) {
+    background-image: url('../assets/sqlserver.jpg');
+    transform: rotateY(300deg) translateZ(300px);
+    border-radius: 25px;
+
+}
+
+
+/* .image:nth-child(7) {
+    background-image: url('../assets/js.jpg');
+    transform: rotateY(240deg) translateZ(300px);
+}
+
+.image:nth-child(8) {
+    background-image: url('../assets/mysql.png');
+    transform: rotateY(280deg) translateZ(300px);
+}
+
+.image:nth-child(9) {
+    background-image: url('../assets/nodejs.png');
+    transform: rotateY(320deg) translateZ(300px);
+} */
+

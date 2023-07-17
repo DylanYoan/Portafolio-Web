@@ -76,10 +76,7 @@
   }
 
   #inicio__container p {
-    background: -webkit-linear-gradient(white, #38495a);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #fff;
     width: 100%;
     position: relative;
     text-align: justify;

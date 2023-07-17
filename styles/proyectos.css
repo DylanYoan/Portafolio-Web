@@ -1,0 +1,34 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height:  100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.swiper {
+    transform: translateY(-50%);
+    top: 40%;
+    width: 80%;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 300px;
+}
+
+.swiper-slide img {
+    height: 100%;
+    object-fit: cover;
+}
